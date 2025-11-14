@@ -1,0 +1,46 @@
+@charset "UTC-8";
+
+body {
+    background-image: linear-gradient(-90deg, #531253,#33032F,  #170312);
+    margin: 0;
+    text-align: center;
+}
+
+main {
+    background-color: #0c0c0c;
+    color: white;
+    border-radius: 15px;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+} 
+
+a {
+    color: #f7d6a3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #ff875e;
+}
+
+ul {
+    margin: 0 auto;
+    padding-left: 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+h1 {
+    color: #CF5C36;
+}
+
+h2 {
+    color: #EFC88B;
+}
+
+

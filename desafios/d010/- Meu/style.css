@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype'); }
+
+@font-face {
+    font-family: 'sofia';
+    src: url('fontes/sofia sans.ttf') format('truetype'); }
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8affbb;
+}
+
+main {
+    background-color: white;
+    padding: 30px;
+    margin: 0px 200px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #22c967, #35A062, #324B3C);
+    text-align: center;
+    height: 150px;
+    padding: 20px;  
+}
+
+header > h1 {
+    font: bolder 35px 'sofia';
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    padding-bottom: 10px;
+}
+
+header > p {
+    font: normal 16px 'Arial';
+    color: white;
+    line-height: 25px;
+    text-shadow: 1px 2px 2px black;
+}
+
+#menu {
+    background-color: #324B3C;   
+}
+
+#menu > a {
+    font-family: 'Arial';
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 20px;
+}
+
+article > h1 {
+    font-family: 'idroid';
+    color: #324B3C;
+}
+
+article > h2 {
+    font-family: 'idroid';
+    color: #324B3C;
+    background-image: linear-gradient(to right, #8affbb9c, #ffffff9c);
+    text-indent: 10px;
+}
+
+article > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.destaque {
+    color: #33704c;
+    font-weight: bold;
+}
+
+section {
+    background-color: #324B3C;
+    text-align: center;
+    padding: 25px;
+    margin: 0px -30px;
+}
+
+aside {
+    font-family: 'Arial';
+    height: 425px;
+    background-color: #b4ffd3;
+    padding: 10px;
+    margin: 30px 0px;
+    box-shadow: 1px 1px 5px #00000062;
+    border-radius: 10px;
+}
+
+aside > h1 {
+    font-size: 20px;
+    background-color: #35A062;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+}    
+
+aside > p {
+    text-indent: 30px;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+div {
+    display: flex; gap: 200px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 15px 20px;
+}
+
+li > a {
+    color: black;
+}
+
+li::before {
+    content: '✔️ ';
+}
+
+main > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+footer {
+    background-color: #324B3C;
+    color: white;
+    font: italic 14px 'Arial';
+    text-align: center;
+    padding: 9px;
+}
+
+.autor {
+    font-weight: bold;
+}
