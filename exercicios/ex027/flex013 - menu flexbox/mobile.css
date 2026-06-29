@@ -1,13 +1,31 @@
 @charset "UTF-8";
 
-header, header > nav {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
     flex-flow: column nowrap;
 }
 
-header > h1 {
+header h1 {
     flex-basis: 50px;
 }
 
-header > nav > a {
+#itens {
+    flex-direction: column;
     width: 90vh;
+}
+
+#burguer {
+    display: block;
+    cursor: pointer;
+    background-color: rgb(88, 88, 88);
+    padding: 10px;
+    margin-bottom: -10px;
+    width: 100vw;
+    text-align: center;
+
 }
