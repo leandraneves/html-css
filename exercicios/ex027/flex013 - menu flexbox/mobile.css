@@ -15,8 +15,14 @@ header h1 {
 }
 
 #itens {
-    flex-direction: column;
-    width: 90vh;
+    display: none;
+    flex-flow: column nowrap;
+    margin-top: 15px
+}
+
+#itens > a {
+    display: block;
+    width: 90vw;
 }
 
 #burguer {
@@ -27,5 +33,9 @@ header h1 {
     margin-bottom: -10px;
     width: 100vw;
     text-align: center;
+}
 
+#burguer:hover {
+    background-color: white;
+    color: black;
 }
