@@ -76,8 +76,9 @@ div.media > iframe {
 footer p {
     background-color: black;
     color: white;
-    padding: 10px;
     text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
     margin-bottom: -10px;
 }
 
